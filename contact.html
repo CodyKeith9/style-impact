@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Style Impact | Contact</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-inner">
+      <div class="brand-mark">
+        <div class="brand-icon">SI</div>
+        <div>
+          <div class="brand-text-main">Style&nbsp;Impact</div>
+          <div class="brand-text-sub">Personal Styling Studio</div>
+        </div>
+      </div>
+
+      <nav class="primary-nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="about.html" class="nav-link">About Me</a>
+        <a href="contact.html" class="nav-link active">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="page-shell">
+    <main>
+      <section id="contact">
+        <p class="section-label">Contact</p>
+        <h1 class="section-heading">Ready to make your wardrobe work harder?</h1>
+
+        <div class="contact-grid">
+          <form class="contact-form">
+            <div class="field-group">
+              <label class="field-label" for="name">Name</label>
+              <input id="name" name="name" type="text" class="field-input" placeholder="Your name" required />
+            </div>
+
+            <div class="field-group">
+              <label class="field-label" for="email">Email</label>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                class="field-input"
+                placeholder="you@example.com"
+                required
+              />
+            </div>
+
+            <div class="field-group">
+              <label class="field-label" for="message">How can Brian help?</label>
+              <textarea
+                id="message"
+                name="message"
+                class="field-textarea"
+                placeholder="Tell us a bit about your style goals, upcoming events, or what you'd like help with."
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn-primary">
+              Send Message
+              <span class="icon">✉</span>
+            </button>
+
+            <p class="contact-note">
+              This form is front-end only right now. When you're ready, we can wire it to an email
+              service or backend endpoint.
+            </p>
+          </form>
+
+          <div class="contact-aside">
+            <p><strong>Prefer direct contact?</strong></p>
+            <p class="contact-aside-line">
+              We can plug in Brian's preferred email, Instagram, or booking link here once he
+              confirms his main channel.
+            </p>
+            <p class="contact-aside-line">
+              You can also add service areas (e.g., “Chattanooga & virtual clients”) and expected
+              response times to set clear expectations.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      &copy; <span id="year"></span> Style Impact. All rights reserved.
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

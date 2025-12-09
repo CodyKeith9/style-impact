@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Style Impact | Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Entrance Overlay -->
+  <div class="entrance-overlay" id="entrance">
+    <div class="closet-frame" id="closetFrame">
+      <div class="closet-door"></div>
+      <div class="closet-inner-glow"></div>
+
+      <div class="entrance-content">
+        <div class="entrance-logo">Style Impact</div>
+        <div class="entrance-tagline">Curated Wardrobes • Confident Presence</div>
+        <p class="entrance-subtext">
+          Step inside Brian's curated wardrobe experience. Intentional pieces, refined silhouettes,
+          and styling that amplifies who you already are.
+        </p>
+        <button class="btn-primary" id="enterBtn">
+          <span>Enter the Closet</span>
+          <span class="icon">➜</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="nav-inner">
+      <div class="brand-mark">
+        <div class="brand-icon">SI</div>
+        <div>
+          <div class="brand-text-main">Style&nbsp;Impact</div>
+          <div class="brand-text-sub">Personal Styling Studio</div>
+        </div>
+      </div>
+
+      <nav class="primary-nav">
+        <a href="index.html" class="nav-link active">Home</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="about.html" class="nav-link">About Me</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="page-shell">
+    <main>
+      <section>
+        <div class="section-grid">
+          <div>
+            <p class="section-label">Welcome</p>
+            <h1 class="hero-title">
+              Make every look a <span class="hero-highlight">Style Impact</span>.
+            </h1>
+            <p class="hero-subtitle">
+              Brian helps you build a wardrobe that actually works for your life—elevated essentials,
+              intentional outfits, and styling that feels like you (on your best day).
+            </p>
+
+            <div class="hero-meta">
+              <div class="hero-pill">Closet Curations</div>
+              <div class="hero-pill">Personal Shopping</div>
+              <div class="hero-pill">On-Call Styling</div>
+            </div>
+
+            <a href="services.html" class="btn-primary">
+              View Services
+              <span class="icon">↓</span>
+            </a>
+          </div>
+
+          <div class="hero-video-shell">
+            <!-- Replace VIDEO_ID with actual ID when you have Brian’s video -->
+            <iframe
+              src="https://www.youtube.com/embed/VIDEO_ID"
+              title="Style Impact Introduction Video"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            <div class="video-caption">A first look inside Style Impact</div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      &copy; <span id="year"></span> Style Impact. All rights reserved.
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
