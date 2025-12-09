@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: style-impact
+    runtime: static
+    repo: https://github.com/CodyKeith9/style-impact
+    buildCommand: "echo 'no build step'"
+    staticPublishPath: "."
+    pullRequestPreviewsEnabled: true
+    autoDeploy: true
