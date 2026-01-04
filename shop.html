@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Style Impact | Shop</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-inner">
+      <div class="brand-mark">
+        <div class="brand-icon">SI</div>
+        <div>
+          <div class="brand-text-main">Style&nbsp;Impact</div>
+          <div class="brand-text-sub">Personal Styling Studio</div>
+        </div>
+      </div>
+
+      <nav class="primary-nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="shop.html" class="nav-link active">Shop</a>
+        <a href="about.html" class="nav-link">About Me</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="page-shell">
+    <main>
+      <section id="shop">
+        <p class="section-label">Shop</p>
+        <h1 class="section-heading">Style Impact Shop</h1>
+
+        <p style="color: var(--text-muted); max-width: 720px; font-size: 0.95rem; margin-bottom: 2.2rem;">
+          Discover our curated selection of fashion essentials and Style Impact exclusives. From timeless accessories
+          to must-have wardrobe staples, our shop features handpicked items that embody the effortless elegance we stand for.
+          Browse clothing, jewelry, unique hats, and more—each piece selected by <strong>Brian Lamar</strong> to help you achieve
+          that perfect style impact.
+        </p>
+
+        <div class="services-grid">
+          <article class="service-card">
+            <div>
+              <h2 class="service-name">Curated Essentials</h2>
+              <p class="service-copy">
+                Timeless wardrobe staples and accessories chosen for versatility, quality, and effortless styling.
+              </p>
+            </div>
+            <div class="service-tag">Always In Style</div>
+          </article>
+
+          <article class="service-card">
+            <div>
+              <h2 class="service-name">Style Impact Exclusives</h2>
+              <p class="service-copy">
+                Limited-edition pieces and curated drops. Check back often—inventory changes quickly.
+              </p>
+            </div>
+            <div class="service-tag">Limited Drops</div>
+          </article>
+
+          <article class="service-card">
+            <div>
+              <h2 class="service-name">Worldwide Shipping</h2>
+              <p class="service-copy">
+                Shipping available worldwide, with styling tips included in every purchase.
+              </p>
+            </div>
+            <div class="service-tag">Global Delivery</div>
+          </article>
+        </div>
+
+        <div style="margin-top: 2.6rem; display: grid; gap: 0.9rem; max-width: 740px;">
+          <p style="color: var(--text-muted); font-size: 0.95rem;">
+            <strong>Buying options:</strong> We can add Shopify checkout later. For now, you can request items by email and
+            Brian will handle payment and delivery directly.
+          </p>
+
+          <a href="contact.html" class="btn-primary">
+            Shop Inquiries
+            <span class="icon">→</span>
+          </a>
+
+          <p style="color: var(--text-muted); font-size: 0.82rem;">
+            Tip: If Brian wants “email-to-order,” we can add a dedicated form field like “Item Name / Link” on the contact page.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      &copy; <span id="year"></span> Style Impact. All rights reserved.
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
